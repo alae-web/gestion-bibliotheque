@@ -20,3 +20,5 @@ class Bibliotheque:
     return [l for l in self._livres if mot in l.titre.lower()]
   def nombre_disponibles(self):
     return sum(1 for l in self._livres if l.disponible)
+  def trier_par_titre(self):
+    return sorted(self._livres, key=lambda l: l.titre)
