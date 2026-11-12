@@ -4,14 +4,18 @@ Projet fil rouge du module d'ingénierie logicielle.
 
 Application Python permettant de gérer un catalogue de livres.
 Prérequis : Python 3.9 ou supérieur.
+
 ## Auteurs
 - ALAE HAIDA
+
 ## Exécution
 python -m bibliotheque.main
+
 ## Fonctionnalités
 - Ajout et recherche de livres
 - Recherche par titre, auteur et ISBN
+- Suppression d'un livre par ISBN
 - Sauvegarde et chargement du catalogue au format JSON
+
 ## Contribuer
 Consultez [CONTRIBUTING.md](CONTRIBUTING.md) avant d'ouvrir une pull request.
-- Suppression d'un livre par ISBN
