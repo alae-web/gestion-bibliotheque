@@ -7,6 +7,7 @@ Prérequis : Python 3.9 ou supérieur.
 
 ## Auteurs
 - ALAE HAIDA
+- LAMIAE HAMDI
 
 ## Exécution
 python -m bibliotheque.main
