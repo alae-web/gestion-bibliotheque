@@ -22,3 +22,10 @@ class Bibliotheque:
     return sum(1 for l in self._livres if l.disponible)
   def trier_par_titre(self, inverse=False):
     return sorted(self._livres, key=lambda l: l.titre, reverse=inverse)
+  def supprimer(self, isbn):
+    """Supprime un livre du catalogue à partir de son ISBN."""
+    livre = self.rechercher_par_isbn(isbn)
+    if livre is None:
+      return False
+    self._livres.remove(livre)
+    return True
